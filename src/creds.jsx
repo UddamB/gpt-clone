@@ -1,2 +1,0 @@
-const REACT_APP_API_KEY="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"
-export {REACT_APP_API_KEY};
