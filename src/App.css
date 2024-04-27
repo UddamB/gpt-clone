@@ -1,0 +1,276 @@
+/* Basic styling of all elements displayed */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Changing font size */
+html {
+  font-size: 62.5%;
+}
+
+/* Changing site background color & text color/font */
+body {
+  background: rgb(3, 0, 31);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Changing height of vertical border */
+.App {
+  min-height: 100vh;
+  display: flex;
+}
+
+/* Changing color/x-position of vertical border */
+.sideBar{
+  flex: 3;
+  border-right: 1px solid rgb(100, 100, 100);
+}
+
+/* Changing x-position of vertical border */
+.main {
+  flex: 9;
+}
+
+/* Changing x-position of ChatGPT word logo in side-bar */
+.logo {
+  margin-right: 1rem;
+}
+
+/* Changing size of ChatGPT word logo in side-bar */
+.brand {
+  font-size: 2rem;
+}
+
+/* Adding padding around GPT logo, adding horizonal border in side-bar */
+.upperSide {
+  padding: 2.5rem;
+  border-bottom: 1px solid rgb(100, 100, 100);
+  height: 70%;
+}
+
+/* Aligining top side-bar buttons */
+.upperSideTop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+/* Changing height of add-icon for top side-bar button */
+.addBtn {
+  height: 2rem;
+  padding-right: 1rem;
+}
+
+/* Changing background & size of top side-bar add button */
+.midBtn {
+  background: #5A4BFF;
+  border: none;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+}
+
+/* Changes color of button when hovered on */
+.midBtn:hover{
+  background: #292828;
+}
+
+/* Changing background & size of top side-bar query button */
+.query {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: rgba(222, 222, 222, 1);
+  padding: 1.5rem;
+  width: 25rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(98, 98, 98, 1);
+}
+
+/* Changes color of button when hovered on */
+.query.msgIcon:hover{
+  background: #292828;
+}
+
+/* Changes color of button when hovered on */
+.query:hover{
+  background: #292828;
+}
+
+/* Increasing spacing between icon and text of top side-bar query button */
+.query>img {
+  margin-right: 2rem;
+  object-fit: cover;
+  height: 1.75rem;
+}
+
+/*Adding space above github icon*/
+.social-icons{
+  margin-top: 30px;
+}
+
+/*Formatting github icon with color and size*/
+.social-icons a{
+  text-decoration: none;
+  font-size: 50px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+/*Adding hover animation to github icon*/
+.social-icons a:hover{
+  color: #292828;
+  transform: translateY(-5px);
+}
+
+/* Changing position of bottom side-bar buttons */
+.lowerSide {
+  padding: 2rem;
+}
+
+/* Increasing size of bottom side-bar buttons */
+.listItems {
+  margin: 0.75rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+/* Increasing spacing of bottom side-bar buttons */
+.listItemsImg {
+  margin: 1rem;
+  padding-right: 1rem;
+}
+
+/* Aligning 1st button text with bottom side-bar buttons */
+.listItems:nth-child(1)>.listItemsImg {
+  margin-right: 0.5rem;
+}
+
+/* Changes color of button when hovered on */
+.listItems:nth-child(1):hover{
+  background: #32293b;
+}
+
+/* Changes color of button when hovered on */
+.listItems:nth-child(2):hover{
+  background: #32293b;
+}
+
+/* Aligning 3rd button text with bottom side-bar buttons */
+.listItems:nth-child(3)>.listItemsImg {
+  margin-right: 0.75rem;
+}
+
+/* Changes color of button when hovered on */
+.listItems:nth-child(3):hover{
+  background: #32293b;
+}
+
+/* Aligning top user image and text to center */
+.main {
+  min-height: calc(100vh - 14rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 10rem;
+  margin-bottom: 0;
+}
+
+/* Centering query text box and button to bottom */
+.chatFooter{
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adding background color to query text box */
+.inp{
+  padding: 0.5rem;
+  background: rgba(28, 30, 58, 1);
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 68rem;
+}
+
+/* Increasing size of query text box */
+.inp>input{
+  width: calc(100% - 3rem);
+  outline: none;
+  padding: 1.25rem;
+  color: white;
+}
+
+/* Changing foreground color of query text box */
+.inp>input, .send{
+  background: transparent;
+  border: none;
+}
+
+/* Changes color of button when hovered on */
+.send:hover{
+  background: #32293b;
+}
+
+/* Displaying scroll */
+.chats{
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 200%;
+  max-width: 70rem;
+  height: calc(100vh - 17rem);
+}
+
+/* Formatting spacing of chats */
+.chat{
+  margin: 1rem;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+/* Formatting user and gpt image in chat */
+.chatImg{
+  object-fit: cover;
+  width: 3.5rem;  
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+}
+
+/* Adding background to gpt's response in chat */
+.bot{
+  background: rgba(28, 30, 58, 1);
+  width: fit-content;
+  border-radius: 0.5rem;
+}
+
+/* Formating spacing of footer message */
+.chatFooter>p{
+  margin: 2rem 0;
+}
+
+/* Changing paragraph spacing and color */
+.txt{
+  line-height: 2.4rem;
+  color: rgba(222, 222, 222, 1);
+}
