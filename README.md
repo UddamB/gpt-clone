@@ -15,6 +15,9 @@ Feel free to suggest improvements/improve the code
 
 <img width="945" alt="gpt" src="https://github.com/UddamB/gpt-clone/assets/89602764/1f623e3e-6185-4d72-bea8-50e0168ca1ba">
 
+
+Link to AI Image Generator: https://github.com/UddamB/ai-image-generator 
+
 ## Description
 
 Don't have GPT4, no problem! This GPT4 alternative uses gpt 3.5 turbo with an image generation feature, allowing you to create art while using the model at the same time. 
