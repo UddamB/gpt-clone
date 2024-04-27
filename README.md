@@ -1,6 +1,16 @@
 
 # ChatGPT Clone
 
+## To do
+- [x] use react / faster backend language ?
+- [x] create image generation  
+- [ ] Double confirm when deleting conversation
+- [ ] remember user preferences
+- [ ] theme changer
+- [ ] loading / exporting a conversation
+- [ ] better documentation
+
+
 Feel free to suggest improvements/improve the code
 
 <img width="945" alt="gpt" src="https://github.com/UddamB/gpt-clone/assets/89602764/1f623e3e-6185-4d72-bea8-50e0168ca1ba">
