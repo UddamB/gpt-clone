@@ -26,7 +26,7 @@ To get started with this project, you'll need to clone the repository and instal
 
 **Front-End:** React.js, HTML, CSS
 
-**Back-End:** JavaScript
+**Back-End:** Node.js
 
 **API:** OpenAI API
 
