@@ -84,8 +84,16 @@ function App() {
             <button className="query" onClick={handleQuery} value={"What is Programming?"}><img src={msgIcon} alt="Query" />What is Programming? </button>
             <button className="query" onClick={handleQuery} value={"How to use an API?"}><img src={msgIcon} alt="Query" />How to use an API? </button>
           </div>
+          {/* Displaying image icon */}
+          <div class="image-icon">
+            <a href="https://ai-imagegen.netlify.app/"><i class="fa fa-image"></i></a>
+          </div>
+          {/* Displaying image text */}
+          <div className="imagetext">
+            <p>Generate Image</p>
+          </div>
           {/* Referencing github link for github button */}
-          <div class="social-icons">
+          <div class="github-icon">
             <a href="https://github.com/UddamB"><i class="fa fa-github"></i></a>
             <p>By Uddam Bhathal</p>   
           </div>
