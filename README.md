@@ -1,8 +1,10 @@
 
 # ChatGPT Clone
 
-
 Feel free to suggest improvements/improve the code
+
+<img width="945" alt="gpt" src="https://github.com/UddamB/gpt-clone/assets/89602764/1f623e3e-6185-4d72-bea8-50e0168ca1ba">
+
 ## Description
 
 Don't have GPT4, no problem! This GPT4 alternative uses gpt 3.5 turbo with an image generation feature, allowing you to create art while using the model at the same time. 
@@ -27,6 +29,9 @@ To get started with this project, you'll need to clone the repository and instal
 
 
 ## Demo
+
+https://github.com/UddamB/gpt-clone/assets/89602764/8b34361f-47d7-4119-b432-63a65d64d996
+
 ## API Reference
 
 The [OpenAI API](https://platform.openai.com/docs/models/gpt-3-5-turbo) is used for referencing the API key which is stored in the environment variable `REACT_APP_API_KEY`. 
