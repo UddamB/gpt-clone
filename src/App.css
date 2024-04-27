@@ -115,15 +115,46 @@ body {
   height: 1.75rem;
 }
 
+/*Formatting image icon with color and size*/
+.image-icon a{
+  text-decoration: none;
+  font-size: 40px;
+  margin-left: 100px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+/* Formatting generate image text with color and size*/
+.imagetext {
+  margin-top: -10px;
+  margin-left: 40px;
+  color: #b97979; 
+  font-size: 20px;
+  text-decoration: none;  
+}
+
+/*Adding hover animation to image text*/
+.imagetext:hover{
+  color: #292828;
+}
+
+/*Adding hover animation to image icon*/
+.image-icon a:hover{
+  color: #292828;
+  transform: translateY(-5px);
+}
+
 /*Adding space above github icon*/
-.social-icons{
-  margin-top: 30px;
+.github-icon{
+  margin-top: 2px;
 }
 
 /*Formatting github icon with color and size*/
-.social-icons a{
+.github-icon a{
   text-decoration: none;
-  font-size: 50px;
+  margin-top: -10px;
+  font-size: 40px;
   margin-right: 15px;
   color: #ababab;
   display: inline-block;
@@ -131,7 +162,7 @@ body {
 }
 
 /*Adding hover animation to github icon*/
-.social-icons a:hover{
+.github-icon a:hover{
   color: #292828;
   transform: translateY(-5px);
 }
