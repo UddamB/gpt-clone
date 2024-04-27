@@ -88,9 +88,9 @@ function App() {
           <div class="image-icon">
             <a href="https://ai-imagegen.netlify.app/"><i class="fa fa-image"></i></a>
           </div>
-          {/* Displaying image text */}
+          {/* Displaying generate image text */}
           <div className="imagetext">
-            <p>Generate Image</p>
+            <a href="https://ai-imagegen.netlify.app/" style={{textDecoration: 'none',color: '#b97979'}}> Generate Image</a>
           </div>
           {/* Referencing github link for github button */}
           <div class="github-icon">
@@ -102,7 +102,9 @@ function App() {
           {/* Displaying different logos for home, saved, and upgrade option */}
           <div className="listItems"><img src={home} alt="Home" className="listItemsImg" />Home</div>
           <div className="listItems"><img src={saved} alt="Saved" className="listItemsImg" />Saved</div>
-          <div className="listItems"><img src={rocket} alt="Rocket" className="listItemsImg" />Upgrade to Pro</div>
+          <div className="listItems"><img src={rocket} alt="Rocket" className="listItemsImg" />
+          <a href="https://openai.com/chatgpt/pricing" style={{textDecoration: 'none',color: 'white'}}> Upgrade to Pro</a>
+          </div>
         </div>
       </div>
       <div className="main">
