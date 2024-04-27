@@ -94,7 +94,7 @@ function App() {
           </div>
           {/* Referencing github link for github button */}
           <div class="github-icon">
-            <a href="https://github.com/UddamB"><i class="fa fa-github"></i></a>
+            <a href="https://github.com/UddamB/gpt-clone"><i class="fa fa-github"></i></a>
             <p>By Uddam Bhathal</p>   
           </div>
         </div>
