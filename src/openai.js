@@ -1,5 +1,4 @@
 import OpenAI from 'openai';
-import {REACT_APP_API_KEY} from './creds.jsx'
 
 // Storing OpenAI API Key
 const openai = new OpenAI({apiKey: REACT_APP_API_KEY, dangerouslyAllowBrowser: true});
