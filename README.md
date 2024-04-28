@@ -12,7 +12,7 @@
 - [ ] text-to-speech
 
 
-Feel free to suggest improvements/improve the code
+Feel free to suggest improvements/improve the code :)
 
 <img width="945" alt="gpt" src="https://github.com/UddamB/gpt-clone/assets/89602764/1f623e3e-6185-4d72-bea8-50e0168ca1ba">
 
