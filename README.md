@@ -9,6 +9,7 @@
 - [ ] theme changer
 - [ ] loading / exporting a conversation
 - [ ] better documentation
+- [ ] text-to-speech
 
 
 Feel free to suggest improvements/improve the code
