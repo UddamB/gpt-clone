@@ -66,6 +66,11 @@ Navigate to the root directory of your project.
 cd clone
 ```
 
+Install Node.js library to interact with OpenAI API
+```
+npm i openai
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
