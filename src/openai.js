@@ -7,7 +7,7 @@ const openai = new OpenAI({apiKey: process.env.REACT_APP_API_KEY, dangerouslyAll
 // Handling messages sent to API with parameters like model and messages, returning API output
 export async function sendMsgToOpenAI(message){
     const res = await openai.chat.completions.create({
-        model: 'gpt-3.5-turbo', 
+        model: 'gpt-4o',
         messages: [{"role": "user", 
                     "content": message}],   
     });
