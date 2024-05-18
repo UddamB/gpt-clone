@@ -21,7 +21,7 @@ Link to AI Image Generator: https://github.com/UddamB/ai-image-generator
 
 ## Description
 
-Don't have GPT 4, no problem! This GPT 4 alternative uses GPT 3.5 Turbo with an image generation (DALL-E 3) feature, allowing you to create art while using the model at the same time. 
+Don't have GPT 4, no problem! This GPT 4 alternative uses GPT 4-o with an image generation (DALL-E 3) feature, allowing you to create art while using the model at the same time. 
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ To get started with this project, you'll need to clone the repository and instal
 
 
 ## Features 
-- 3.5 Turbo Prompts
+- GPT 4-o Prompts
 - Image generation 
 - Enhanced UI
 
