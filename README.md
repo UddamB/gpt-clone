@@ -48,7 +48,7 @@ https://github.com/UddamB/gpt-clone/assets/89602764/8b34361f-47d7-4119-b432-63a6
 
 ## API Reference
 
-The [OpenAI API](https://platform.openai.com/docs/models/gpt-3-5-turbo) is used for referencing the API key which is stored in the environment variable `REACT_APP_API_KEY`. 
+The [OpenAI API](https://platform.openai.com/docs/models/gpt-4o) is used for referencing the API key which is stored in the environment variable `REACT_APP_API_KEY`. 
 
 
 
