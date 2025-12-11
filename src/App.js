@@ -8,8 +8,24 @@ import rocket from './assets/rocket.svg';
 import sendBtn from './assets/send.svg';
 import userIcon from './assets/user-icon.png';
 import gptImgLogo from './assets/chatgptLogo.svg';
-import { sendMsgToOpenAI } from './openai';
 import { useEffect, useState, useRef } from 'react';
+
+ // Function to send user message to backend and get GPT response (fetch call)
+async function sendMsgToOpenAI(message) {
+  const res = await fetch('/api/chat', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message }),
+  });
+
+  if (!res.ok) {
+    console.error('Backend error:', res.status);
+    return 'There was an error talking to the server.';
+  }
+
+  const data = await res.json();
+  return data.reply || 'No response from server.';
+}
 
 function App() {
   // Declaring msgEnd without triggering a re-render (used for detecting the last message for auto-scroll)
